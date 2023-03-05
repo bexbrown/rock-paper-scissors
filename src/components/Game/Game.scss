@@ -1,0 +1,99 @@
+.game {
+    margin: 1.5rem;
+
+    &__heading {
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0;
+        padding: 2rem 0;
+        font-size: 1.25rem;
+    }
+
+    &__board {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__players {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 0 1.5rem 0;
+        width: 100%;
+        max-width: 312px;
+    }
+
+    &__player {
+        height: 7.5rem;
+        width: 7.5rem;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    &__player--one {
+        margin-right: 0.5rem;
+    }
+
+    &__player--two {
+        margin-left: 0.5rem;
+    }
+
+    &__element {
+        font-size: 3rem;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        width: 100%;
+        max-width: 443px;
+    }
+
+    &__elements {
+        width: 100%;
+        max-width: 312px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 2rem;
+        padding: 1rem 0;
+    }
+
+    &__choice {
+        cursor: pointer;
+        font-size: 2rem;
+        padding: 0 0.25rem;
+    }
+
+    &__winner {
+        font-size: 1.25rem;
+        font-weight: 700;
+        height: 74px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__button {
+        text-transform: uppercase;
+        height: 2rem;
+        width: 100%;
+        max-width: 312px;
+        cursor: pointer;
+        background-color: white;
+        border: 1px solid white;
+        padding: 0;
+        margin: 0;
+        margin-top: 0.75rem;
+        background-color: #afafaf;
+
+
+    }
+
+    &__button:hover {
+        border: 1px solid #2d2d2b;
+    }
+}
